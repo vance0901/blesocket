@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    android:background="@color/nephritis">
+
+    <ImageView
+        android:layout_height="241dp"
+        android:layout_width="147dp"
+        android:src = "@drawable/logo"
+        android:contentDescription="@string/strnull"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colblack"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:alpha=".6"
+        android:text="@string/tvCopyright"/>
+
+</RelativeLayout>

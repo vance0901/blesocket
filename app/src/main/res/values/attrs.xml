@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItem">
+		<attr name="label" format="string"></attr>
+		<attr name="text" format="string"></attr>
+		<attr name="labelColor" format="color"></attr>
+		<attr name="textColor" format="color"></attr>
+		<attr name="labelSize" format="integer"></attr>
+		<attr name="textSize" format="integer"></attr>
+	</declare-styleable>
+
+</resources>

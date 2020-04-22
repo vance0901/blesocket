@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:paddingBottom="@dimen/activity_vertical_margin"
+			  android:paddingLeft="@dimen/activity_horizontal_margin"
+			  android:paddingRight="@dimen/activity_horizontal_margin"
+			  android:paddingTop="@dimen/activity_vertical_margin"
+			  android:background="@color/nephritis"
+			  android:orientation="vertical"
+			  android:keepScreenOn="true"
+			  tools:context="com.healthmgr.healthmgrv1.MainActivity">
+
+	<!-- ECGWave -->
+	<SurfaceView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="top"
+		android:layout_weight="3"
+		android:id="@+id/vECGWave"
+		android:layerType="hardware"
+		android:background="@color/nephritis"/>
+
+	<!-- BT & Config -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:background="@color/nephritis"
+		android:baselineAligned="false"
+		android:layout_gravity="center_horizontal"
+		android:orientation="horizontal">
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:contentDescription="@string/strnull"
+			android:background="@drawable/bluetooth"
+			android:id="@+id/vBT"
+			/>
+		<!--<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text = "开始检查"
+			android:gravity="center"
+			android:id="@+id/vCheck"
+			/>-->
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/strnull"
+			android:background="#009343"
+			android:src="@drawable/config"
+			android:id="@+id/vCFG"
+			/>
+	</LinearLayout>
+
+
+
+	<!-- information -->
+	<TableLayout
+				 android:layout_width="match_parent"
+				 android:layout_height="0dp"
+				 android:layout_weight="2"
+				 android:layout_gravity="bottom"
+				 android:gravity="left">
+		<TableRow>
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="30dp"
+				android:text = "心        率:"
+				android:textSize = "18dp"/>
+			<TextView
+				android:layout_width="150dp"
+				android:layout_height="30dp"
+				android:gravity="left"
+				android:text = ""
+				android:id="@+id/vheartRate"
+				android:textSize = "18dp"/>
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="30dp"
+				android:text = "心率情况:"
+				android:textSize = "18dp"/>
+			<TextView
+				android:layout_width="150dp"
+				android:layout_height="30dp"
+				android:gravity="left"
+				android:text = "正常"
+				android:id="@+id/vheartRateState"
+				android:textSize = "18dp"/>
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="30dp"
+				android:text = "常联系人:"
+				android:textSize = "18dp"/>
+			<TextView
+				android:layout_width="150dp"
+				android:layout_height="30dp"
+				android:gravity="left"
+				android:text = ""
+				android:id="@+id/vcontactPerson"
+				android:textSize = "18dp"/>
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:layout_width="80dp"
+				android:layout_height="30dp"
+				android:text = "联系方式:"
+				android:textSize = "18dp"/>
+			<TextView
+				android:layout_width="150dp"
+				android:layout_height="30dp"
+				android:gravity="left"
+				android:text = ""
+				android:id="@+id/vcontactPhone"
+				android:textSize = "18dp"/>
+		</TableRow>
+	</TableLayout>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:text = "当前位置"
+		android:id="@+id/vaddress"
+		android:textSize = "18dp"/>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical">
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/strnull"
+        android:background="@drawable/bluetooth"
+        android:id="@+id/ibBluetooth"
+        />
+   
+	 <LinearLayout 
+	        android:layout_width="0dp" 
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/llBTSelect"
+	        android:paddingTop="30dp" 
+	        android:paddingBottom="30dp"
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/strnull"
+	            android:src="@drawable/bracket"
+				/>
+	        <RelativeLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_horizontal"
+	            >
+	            <ListView 
+			        android:layout_width="match_parent" 
+			        android:layout_height="wrap_content"	     
+			        android:layout_gravity="center_horizontal"
+			        android:divider="#00000000"
+			        android:listSelector="@color/belize_hole"
+			        android:id="@+id/lvBtDeviceList"/>
+	            <Button 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="40dp"
+	                android:paddingRight="40dp"
+	                android:layout_centerHorizontal="true"
+	                android:text="@string/research"
+	                android:textColor="@color/colblack"
+	                android:textSize="20sp"
+	                android:background="@color/emerald"
+	                android:id="@+id/btnResearch"
+	                android:visibility="gone"
+	                android:layout_alignParentBottom="true"/>
+	            <ProgressBar 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_alignParentBottom="true"
+	                android:id="@+id/pbSearch"/>
+	        </RelativeLayout>
+	        
+	        
+	  </LinearLayout>
+    
+</LinearLayout>

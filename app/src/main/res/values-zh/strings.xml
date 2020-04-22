@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">健康管理</string>
+    <string name="exit_tip">再按一次退出程序</string>
+    <string name="unfinishedfunc">该功能正在建设中，敬请期待。</string>
+
+    <string name="strnull"></string>
+    <string name="unknown_device">unknown device</string>
+    <string name="paired">Paired</string>
+    <string name="berry_bluetooth_name">BerryMed</string>
+    <string name="research">重新搜索</string>
+    <string name="wait_for_connect">请稍等。。。</string>
+    <string name="connect_successfully">已经连接到 </string>
+
+    <!-- configure -->
+    <string name="vcfgsave">保存</string>
+    <string name="vCfgConPers">紧急情况联系人：</string>
+    <string name="vCfgConPerson">联系人姓名</string>
+    <string name="vCfgPho">联系电话：</string>
+    <string name="vCfgPhone">联系电话</string>
+    
+    <!-- ECG -->
+    <string name="tvRespInvalid">--</string>
+    <string name="tvRespUnit">bmp</string>
+    <string name="tvHRInvalid">--</string>
+    <string name="tvHRUnit">bmp</string>
+    
+    <!-- TEMP -->
+    
+    <string name="tvTempInvalid">--.-</string>
+    
+    <!-- NIBP -->
+    <string name="tvNIBPInvalid">---</string>
+    
+    <string name="tvCopyright">©2016 South-central University For Nationalities, All rights reserved.</string>
+    
+
+    <!-- Contact -->
+    <string name="contactTel"    >+86-021-58531958</string>
+    <string name="ContactEmail"  >sales@berry-med.com</string>
+    <string name="contactWebsite">South-central University For Nationalities</string>
+    
+    <!-- About -->
+    <string name="AboutCompany">上海贝瑞电子科技有限公司</string>
+    <string name="AboutApp">软件版本：V</string>
+    
+    <!-- Tel alert dialog-->
+    <string name="sure">拨打</string>
+    <string name="later">稍后</string>
+    <string name="areyousure">确定现在拨打？  工作时间:9:00—17:30(北京时间)</string>
+    
+</resources>

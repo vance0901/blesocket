@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EcgMonitor</string>
+    <string name="exit_tip">press again move to background</string>
+    <string name="strnull"></string>
+    <string name="unfinishedfunc">This function is being built.</string>
+    <string name="unknown_device">unknown device</string>
+    <string name="paired">Paired</string>
+    <string name="berry_bluetooth_name">znmd</string>
+    <string name="research">Research</string>
+    <string name="wait_for_connect">Wait a minute.</string>
+    <string name="connect_successfully">Already connect to </string>
+    
+
+    
+    <!-- ECG -->
+    <string name="tvRespInvalid">- -</string>
+    <string name="tvRespUnit">bmp</string>
+    <string name="tvHRInvalid">- -</string>
+    <string name="tvHRUnit">bmp</string>
+
+    <!-- configure -->
+    <string name="vcfgsave">confirm</string>
+    <string name="vCfgConPers">emergency contact：</string>
+    <string name="vCfgConPerson"> contact person</string>
+    <string name="vCfgPho">contact phone：</string>
+    <string name="vCfgPhone">contact phone</string>
+    
+    <string name="tvCopyright">©2016 South-central University For Nationalities, All rights reserved.</string>
+    
+
+    
+    <!-- Contact -->
+    <string name="contactTel"    >+86-021-58531958</string>
+    <string name="ContactEmail"  >sales@berry-med.com</string>
+    <string name="contactWebsite">www.berry-med.com</string>
+    
+    <!-- About -->
+    <string name="AboutCompany">South-central University For Nationalities</string>
+    <string name="AboutApp">Version: V</string>
+    
+    <!-- Tel alert dialog-->
+    <string name="sure">Now</string>
+    <string name="later">Later</string>
+    <string name="areyousure">Are you sure to dial now ?  9:00—17:30(GMT+8 Beijing)</string>
+</resources>
